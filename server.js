@@ -8,7 +8,8 @@ const rotas = {
     '/': 'Curso de Node',
     '/livros': 'Entrei na pag de livros',
     '/autores': 'Listagem de autores',
-    '/editora': 'Pagina de editora'
+    '/editora': 'Pagina de editora',
+    '/sobre': 'Info sobre o projeto'
 }
 
 const server = http.createServer((req, res) => {
